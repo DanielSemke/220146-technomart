@@ -11,17 +11,18 @@
 
 		  <span class="site-name">Техномарт</span>
 
-  		
-  		<form>
-        <input type="text" name="search">
-        <input type="submit" value="Поиск"></button>
+  		<form class="header-search" method="post" action="https://echo.htmlacademy.ru">
+          <p>
+              <input type="text" name="search">
+              <input type="submit" value="Поиск" aria-label="Поиск на странице Техномарт"></input>
+          </p>
       </form>
 
 
   		<ul>
-  			<li><a href="#">Закладки</a></li>
-  			<li><a href="#">Корзина</a></li>
-  			<li><a href="#">Оформить заказ</a></li>
+  		    <li><a href="#">Закладки</a></li>
+  		    <li><a href="#">Корзина</a></li>
+  		    <li><a href="#">Оформить заказ</a></li>
   		</ul>
 
 
@@ -35,8 +36,8 @@
   		
 
   		<ul class="user-navigation">
-  			<a><li class ="login-link"><a href="#">Войти</li></a>
-  			<a><li class="registration"><a href="#">Регистрация</a></li>
+  		    <li><a href="login.html" class="login-link">Войти</a></li>
+  		    <li><a href="registry.html" class="registration">Регистрация</a></li>
   		</ul>
 
 
@@ -51,11 +52,9 @@
   			<a href="#">Контакты</a>
   		</nav>
 
+    </header>
 
-
-  	</header>
-
-
+<main>
   	
   		<article class="info">
 
@@ -86,7 +85,7 @@
         	<p>Вы можете забрать товар сами, </br>
                        заехав в наш офис: </p>
 
-          <img src="img/index_karte.png" width="300" height="158" alt="Адрес на карте">
+          <a href="map.html"><img src="img/index_map.png" width="300" height="158" alt="Адрес на карте"></a>
 
           <a href="#" class="contact-button">Заблудились? Напишите нам!</a>
         		
@@ -129,9 +128,9 @@
 
 			     <div class="footer-social">
 				    <ul>	
-					     <li><a class="social-button" href="#">Вконтакте</a></li>
-					     <li><a class="social-button" href="#">Фейсбук</a></li>
-					     <li><a class="social-button" href="#">Инстаграм</a></li>
+					     <li><a href="#" class="social-button" aria-label="Техномарт на сайте Вконтакте">Вконтакте</a></li>
+					     <li><a href="#" class="social-button" aria-label="Техномарт на сайте Фейсбук">Фейсбук</a></li>
+					     <li><a href="#" class="social-button" aria-label="Техномарт на сайте Инстаграм">Инстаграм</a></li>
 				      </ul>
 			     </div>
 

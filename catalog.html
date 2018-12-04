@@ -10,8 +10,8 @@
   		<span class="site-name">Техномарт</span>
 
   		<form>
-        <input type="text" name="search">
-        <input type="submit" value="Поиск"></button>
+        <input type="text" name="search" aria-label="Поле ввода поиска">
+        <input type="submit" value="Поиск" aria-label="Кнопка поиска"></input>
       </form>
 
 
@@ -32,7 +32,7 @@
 
 
   		<a href="tel:+7 (812)555-05-55">+7 (812)555-05-55</a>
-  		<adress>г.Санкт-Петербург, ул. Б. Конюшенная, д.19</adress>
+  		<adress aria-label="Адрес Техномарта">г.Санкт-Петербург, ул. Б. Конюшенная, д.19</adress>
 
 
   			
@@ -45,7 +45,7 @@
 
 
   		<nav class="site-nav">
-  			<a href="#">Главная</a>
+  			<a href="index.html">Главная</a>
   			<a href="#">Компания</a>
   			<a >Каталог</a>
   			<a href="#">Новости</a>
@@ -72,30 +72,32 @@
 
   		<h2 class="page-titel">Перфораторы</h2>
 
-			<form class="filter" method="post" action="#">
+			<form class="filter" method="get" action="https://echo.htmlacademy.ru">
   				<fieldset>
   					<legend>Производители:</legend>
+            
 	  				
 	  					
-	  						<input type="checkbox" name="bosch" id="filter-bosch" checked>
-	  						<label for ="filter-bosch">Bosch</label>
+	  						<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="Bosch" id="filter-bosch" checked>
+                <label for="filter-bosch">Bosch</label>
+              
 	  					
 	  					
-	  						<input type="checkbox" name="interskol" id="filter-interskol">
+	  						<input class="visually-hidden filter-input filter-input-checkbox"type="checkbox" name="interskol" id="filter-interskol">
 	  						<label for ="filter-interskol">Интерскол</label>
 	  					
 	  					
-	  						<input type="checkbox" name="makita" id="filter-makita" checked>
+	  						<input class="visually-hidden filter-input filter-input-checkbox"type="checkbox" name="makita" id="filter-makita" checked>
 	  						<label for ="filter-makita">Makita</label>
 	  				
 	  					
-	  						<input type="checkbox" name="dewalt" id="filter-dewalt">
+	  						<input class="visually-hidden filter-input filter-input-checkbox"type="checkbox" name="dewalt" id="filter-dewalt">
 	  						<label for ="filter-dewalt">Dewalt</label>
 	  					
 	  					
-	  						<input type="checkbox" name="hitachi" id="filter-hitachi">
+	  						<input class="visually-hidden filter-input filter-input-checkbox"type="checkbox" name="hitachi" id="filter-hitachi">
 	  						<label for ="filter-hitachi">Hitachi</label>
-	  					
+	  				
 	  				
   				</fieldset>
 
@@ -103,18 +105,16 @@
   					<legend>Сетевые</legend>
   						
   							
-  								<input type="radio" name="pruduct-group" value="battery" id="filter-battery" checked>
+  								<input class="visually-hidden filter-input filter-input-radio"type="radio" name="pruduct-group" value="battery" id="filter-battery" checked>
   								<label for="filter-battery">Аккмуляторные</label>
   							
   							
-  								<input type="radio" name="pruduct-group" value="electric" id="filter-electric">
+  								<input class="visually-hidden filter-input filter-input-radio"type="radio" name="pruduct-group" value="electric" id="filter-electric">
   								<label for="filter-electric">Сетевые</label>
   							
-  						
-  					
   				</fieldset>
 
-  				<button type="submit">Показать</button>
+  				<button type="submit" class="filter-button button">Показать</button>
 
   			</form>
 
@@ -309,12 +309,12 @@
 
 
 			<div class="footer-social">
-				<ul>	
-					<li><a class="social-button" href="#">Вконтакте</a></li>
-					<li><a class="social-button" href="#">Фейсбук</a></li>
-					<li><a class="social-button" href="#">Инстаграм</a></li>
-				</ul>
-			</div>
+            <ul>  
+               <li><a href="#" class="social-button" aria-label="Техномарт на сайте Вконтакте">Вконтакте</a></li>
+               <li><a href="#" class="social-button" aria-label="Техномарт на сайте Фейсбук">Фейсбук</a></li>
+               <li><a href="#" class="social-button" aria-label="Техномарт на сайте Инстаграм">Инстаграм</a></li>
+              </ul>
+           </div>
 
 
 			<div class="footer-contact">
