@@ -15,18 +15,23 @@
   						<label class="visually-hidden" for="user-first-name">
   						Имя
   						</label>
-  						<input class="login-icon-user" id="user-first-name" type="text" name="first-name" placeholder="Имя">
+  						<input class="login-icon-user" id="user-first-name" type="text" name="first-name" placeholder="Имя" required>
   					</p>
   					<p>
   						<label class="visually-hidden" for="user-name">Фамилия
   						</label>
-  						<input class="login-icon-name" id="user-name" type="text" name="user-name" placeholder="Фамилия">
+  						<input class="login-icon-name" id="user-name" type="text" name="user-name" placeholder="Фамилия" required>
   					</p>
             <p>
               <label for="birthday">Дата рождения</label>
-              <input type="text" name="date" value="" placeholder="01.01.1999">
+              <input type="text" name="date" value="" placeholder="01.01.1999" required>
               
   					 </p>
+            <p>
+              <label class="visually-hidden" for="user-email">Элекронная почта
+              </label>
+              <input class="login-icon-email" id="user-email" type="text" name="user-email" placeholder="Элекронная почта" required>
+            </p>
   					<button class="button" type="submit">
   						Отправить
   					</button>

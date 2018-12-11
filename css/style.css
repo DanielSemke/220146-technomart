@@ -1,0 +1,377 @@
+body {
+
+	margin: 0;
+	
+
+	font-family: 'Cuprum', Arial, sans-serif;
+	font-family: 'PT Sans', Arial, sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+	
+	color: #000;
+
+	background-color: #fff;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+
+     /* Header*/
+
+header {
+	background-color: #f3f7f9;
+}
+
+.site-name {
+	font-family: 'Cuprum';
+	font-size: 24px;
+	line-height: 24px;
+	color: #fff;
+	background-color: #ee3643;
+}
+
+.header-nav {
+	font-family: 'Cuprum';
+	font-size: 17px;
+	line-height: 18px;
+	color: #fff;
+	background-color: #293449;
+
+}
+
+a.basket {
+	background-color: #ee3643;
+}
+
+.order-header,
+.user-navigation ul,
+.order-header{
+	list-style: none;
+}
+
+.main-header h1 {
+	font-family: 'Cuprum';
+	font-style: italic;
+	font-size: 16px;
+	line-height: 23px;
+	color: #ee3643;
+}
+
+.header-contact a{
+	font-family: 'Cuprum';
+	font-size: 21px;
+	line-height: 21px;
+	color: #ee3643;
+}
+
+.header-contact adress {
+	font-family: 'Cuprum';
+	font-size: 14px;
+	line-height: 24px;
+	color: #32425c;
+}
+
+.user-navigation a {
+	font-family: 'Cuprum';
+	font-size: 21px;
+	line-height: 21px;
+	color: #000;
+}
+
+.site-nav {
+	font-family: 'Cuprum';
+	font-size: 17px;
+	line-height: 17px;
+	color:#fff;
+	background-color: #293449;
+}
+
+/* main */
+
+
+.info h3 {
+	font-family: 'Cuprum';
+	font-size: 30px;
+	line-height: 30px;
+	color: #000;
+}
+
+.info p {
+	font-family: 'PT Sans';
+	font-size: 13px;
+	line-height: 24px;
+	color: #000;
+}
+
+.partners {
+	list-style: none;
+}
+
+.partners li {
+	font-family: 'Cuprum';
+	font-size: 18px;
+	line-height: 20px;
+	color: #000;
+}
+
+.info-button {
+	font-family: 'Cuprum';
+	font-size: 14px;
+	line-height: 18px;
+	color: #fff;
+	background-color: #ee3642;
+}
+
+.contact h3 {
+	font-family: 'Cuprum';
+	font-size: 30px;
+	line-height: 30px;
+	color: #000;
+}
+
+.contact p {
+	font-family: 'PT Sans';
+	font-size: 13px;
+	line-height: 24px;
+	color: #000;
+}
+
+
+.contact-button {
+	font-family: 'Cuprum';
+	font-size: 14px;
+	line-height: 18px;
+	color: #fff;
+	background-color: #ee3642;
+}
+
+
+
+
+
+
+
+/* Footer */
+
+
+.footer ul {
+	list-style: none;
+}
+
+.footer-top {
+	background-color: #32425c;
+	
+}
+
+.footer-top .footer-adress a,
+.footer-top .footer-adress adress {
+	font-family: 'Cuprum';
+	font-size: 18px;
+	line-height: 24px;
+	color: #fff;
+}
+.nav-footer a {
+	font-family: 'Cuprum';
+	font-size: 18px;
+	line-height: 24px;
+	color: #fff;
+}
+
+.footer-list a {
+	font-family: 'Cuprum';
+	font-size: 18px;
+	line-height: 24px;
+	color: #ffd180;
+}
+
+
+.footer-bottom {
+	background-color: #293449;
+	
+}
+
+.footer-copyright {
+	font-family: 'Cuprum';
+	font-size: 16px;
+	line-height: 18px;
+	color: #fff;
+}
+
+.footer-contact span {
+	font-family: 'Cuprum';
+	font-size: 16px;
+	line-height: 18px;
+	color: #fff;
+}
+
+.footer-contact a {
+	ont-family: 'Cuprum';
+	font-size: 16px;
+	line-height: 18px;
+	color: #ffd180;
+}
+
+..footer-contact span {
+	font-family: 'Cuprum';
+	font-size: 16px;
+	line-height: 18px;
+	color: #fff;
+}
+
+.footer-contact a {
+	ont-family: 'Cuprum';
+	font-size: 16px;
+	line-height: 18px;
+	color: #ffd180;
+}
+
+.footer-righter span {
+	font-family: 'Cuprum';
+	font-size: 16px;
+	line-height: 18px;
+	color: #fff;
+}
+
+.footer-righter a {
+	font-family: 'Cuprum';
+	font-size: 16px;
+	line-height: 18px;
+	color: #ffd180;
+}
+
+
+
+
+
+
+
+
+/* Catalog */
+
+a.buy {
+	background-color: #63a63e;
+}
+
+
+.user-catalog li {
+	list-style: none;
+	text-decoration: underline;
+}
+
+.breadcrumb ul {
+	list-style: none;
+}
+
+.breadcrumb a {
+	font-family: 'PT Sans';
+	font-size: 13px;
+	line-height: 18px;
+	color: #000;
+}
+
+
+.page-titel {
+	font-family: 'Cuprum';
+	font-size: 30px;
+	line-height: 30px;
+	color: #32425c;
+	background-color: #f2f6f8;
+}
+
+.catalog-checkbox span {
+	font-family: 'PT Sans';
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 30px;
+	color: #000;
+}
+
+
+.current span {
+	font-family: 'PT Sans';
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 30px;
+	color: #000;
+}
+
+
+
+.catalog-checkbox label {
+	font-family: 'PT Sans';
+	font-size: 15px;
+	line-height: 20px;
+	color: #000;
+}
+
+
+.current label {
+	font-family: 'PT Sans';
+	font-size: 15px;
+	line-height: 20px;
+	color: #000;
+}
+
+
+
+.filter-button {
+	font-family: 'PT Sans';
+	font-size: 13px;
+	line-height: 18px;
+	color: #000;
+}
+
+.catalog-name span {
+	font-family: 'PT Sans';
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 20px;
+	color: #000;
+}
+
+.old-price {
+	text-decoration: line-through;
+	font-family: 'PT Sans';
+	font-size: 17px;
+	line-height: 18px;
+	color: #999;
+}
+
+a.price  {
+	font-family: 'PT Sans';
+	font-size: 17px;
+	line-height: 18px;
+	color: #fff;
+	background-color: #ee3643;
+}
+
+
+
+.name-input input {
+	font-family: 'Cuprum';
+	font-size: 21px;
+	line-height: 18px;
+	color: #000;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
