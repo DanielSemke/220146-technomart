@@ -14,74 +14,72 @@
   </head>
   <body>
         <header class="main-header">
-                      <div class="header-nav">
-                              <div class="wrapper">
-                                      <div class="header-nav-block">
-                                              <a href="index.html" class="site-name"><span>ТЕХНОМАРТ</span></a>
-                                              <div class="header-search">
-                                                      <form method="post" action="https://echo.htmlacademy.ru">
-                                                              <input type="text" name="search">
-                                                              <input type="submit" value="Поиск"  aria-label="Поиск на странице Техномарт"></input>
-                                                      </form>
-                                              </div>
-                                      </div>
+                <div class="header-nav">
+                        <div class="wrapper">
+                                  <div class="header-nav-block">
+                                          <a class="site-name button-red" href="index.html"><span>ТЕХНОМАРТ</span></a>
+                                          <div class="header-search">
+                                                  <form method="post" action="https://echo.htmlacademy.ru">     
+                                                          <input type="text" name="search" placeholder="Поиск:">
+                                                          <input type="submit"  value=""  aria-label="Поиск на странице Техномарт"></input>
+                                                  </form>
+                                          </div>
+                                  </div>
 
 
-                                      <div class="order-header-list">
-                                              <ul class="order-header">
-                                                      <li><a href="#">Закладки</a></li>
-                                                      <li><a href="#" class="basket">Корзина: 10</a></li>
-                                                      <li><a href="#" class="buy">Оформить заказ</a></li>
-                                              </ul>
-                                      </div>
-                              </div>
-                      </div>
+                                  <div class="order-header-list">
+                                          <ul class="order-header">
+                                                  <li><a href="#">Закладки: 0</a></li>
+                                                  <li><a href="#" class="cart buton-red">Корзина: 10</a></li>
+                                                  <li><a href="#">Оформить заказ</a></li>
+                                          </ul>
+                                  </div>
+                          </div>
+                  </div>
 
-                      <div class="header-columns">
-                              <div class="wrapper">
-                                      <div class="header-columns-item">
-                                              <h1>Интернет-магазин </br>
-                                                  строительных материалов </br>
-                                                  и инструментов для ремонта</h1>
-                                      </div>
-
-
-                                      <div class="header-contact-catalog">
-                                             <a href="tel:+7(812)555-05-55">+7 (812) 555-05-55</a>
-                                             <adress>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</adress>
-                                      </div>
-
-
-                                      <div class="user-navigation-catalog">
+                  <div class="header-columns">
+                          <div class="wrapper">
+                                  <div class="header-columns-item">
+                                          <h1>Интернет-магазин </br>
+                                              строительных материалов </br> 
+                                              и инструментов для ремонта</h1>
+                                  </div>
+                                  <div class="header-contact">  
+                                         <a href="tel:+7(812)555-05-55">+7 (812) 555-05-55</a>
+                                         <adress>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</adress>
+                                  </div>
+                                  <div class="user-navigation-catalog">
                                               <div class="name-input">
                                                     <input type="text" value="Равшан Джамшутович">
                                               </div>
 
                                               <ul class="user-catalog">
                                                       <li><a href="#">Мои заказы</a></li>
-                                                      <li><a href="#">Личный кабинет</a></li>
+                                                      <li><a class="personal-area" href="#">Личный кабинет</a></li>
                                               </ul>
 
-                                      </div>
-                              </div>
-                      </div>
+                                      </div>                
+                          </div>
+                  </div>  
 
+                  
+                         <div class="wrapper">
+                          <div class="site-nav-div">
+                                <nav class="site-nav">
+                                        <a href="index.html">Главная</a>
+                                        <a href="#">Компания</a>
+                                        <a >Каталог</a>
+                                        <a href="#">Новости</a>
+                                        <a href="#">Спецпредложения</a>
+                                        <a href="#">Доставка</a>
+                                        <a href="#">Контакты</a>
+                                </nav>
+                          </site-nav-div>
+                        </div>
+                        
+      
 
-                             <div class="wrapper">
-                                    <nav class="site-nav">
-                                            <a href="index.html">Главная</a>
-                                            <a href="#">Компания</a>
-                                            <a>Каталог</a>
-                                            <a href="#">Новости</a>
-                                            <a href="#">Спецпредложения</a>
-                                            <a href="#">Доставка</a>
-                                            <a href="#">Контакты</a>
-                                    </nav>
-                            </div>
-
-
-
-          </header>
+      </header>
 
 
   	      <main class="container">
@@ -99,55 +97,72 @@
   		                    <h2 class="page-titel">ПЕРФОРАТОРЫ</h2>
                   </div>
                   <div class="filter-sort">
-                    <div class="filter-div">ФИЛЬТР</div>
-                    <div class="sort-div">СОРТИРОВКА</div>
+                    <div class="filter-div">
+                          <h4>ФИЛЬТР</h4>
+                      </div>
+                    <div class="sort-div">
+                          <h4>СОРТИРОВКА</h4>
+                          <button class="sort-price sort-button">ПО ЦЕНЕ</button>
+                          <button class="sort-type sort-button">ПО ТИПУ</button>
+                          <button class="sort-funktional sort-button">ПО ФУНКЦИОНАЛУ</button>
+
+                    </div>
                   </div>
                       <div class="catalog-page">
 
                             <div class="filters">
                               <div class="filter-price">
+                                <span>ЦЕНА:</span>
+                                <div class="block-middle">
+                                </div>
+                                <div class="block-bottom">
+                                  <div class="block-bottom-right">
+                                  </div>
+                                  <div class="block-bottom-left">
+                                  </div>
+                                </div>
                               </div>
           			                    <form class="filter" method="get" action="https://echo.htmlacademy.ru">
                     				                <fieldset class="catalog-checkbox">
-                    					                      <legend><span>Производители:</span></legend>
+                    					                      <legend><span>ПРОИЗВОДИТЕЛИ:</span></legend>
                                                     <ul class="filter-checkbox">
                                                             <li class="filter-option">
-                                                  	  						<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="Bosch" id="filter-bosch" checked>
+                                                  	  						<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="Bosch" id="filter-bosch" checked hidden>
                                                                   <label for="filter-bosch">BOSCH</label>
                                                             </li>
                                                             <li class="filter-option">
-                                                  	  						<input class="visually-hidden filter-input filter-input-checkbox"type="checkbox" name="interskol" id="filter-interskol">
+                                                  	  						<input class="visually-hidden filter-input filter-input-checkbox"type="checkbox" name="interskol" id="filter-interskol" hidden>
                                                   	  						<label for ="filter-interskol">ИНТЕРСКОЛ</label>
                                                             </li>
                                                             <li class="filter-option">
-                                                  	  						<input class="visually-hidden filter-input filter-input-checkbox"type="checkbox" name="makita" id="filter-makita" checked>
+                                                  	  						<input class="visually-hidden filter-input filter-input-checkbox"type="checkbox" name="makita" id="filter-makita" checked hidden>
                                                   	  						<label for ="filter-makita">MAKITA</label>
                                                   	  			</li>
                                                             <li class="filter-option">
-                                                  	  						<input class="visually-hidden filter-input filter-input-checkbox"type="checkbox" name="dewalt" id="filter-dewalt">
+                                                  	  						<input class="visually-hidden filter-input filter-input-checkbox"type="checkbox" name="dewalt" id="filter-dewalt" hidden>
                                                   	  						<label for ="filter-dewalt">DEWALT</label>
                                                   	  			</li>
                                                             <li class="filter-option">
-                                                  	  						<input class="visually-hidden filter-input filter-input-checkbox"type="checkbox" name="hitachi" id="filter-hitachi">
+                                                  	  						<input class="visually-hidden filter-input filter-input-checkbox"type="checkbox" name="hitachi" id="filter-hitachi" hidden>
                                                   	  						<label for ="filter-hitachi">HITACHI</label>
                                                             </li>
                                                     </ul>
                     				                </fieldset>
 
                                     				<fieldset class="current">
-                                    				        <legend><span>Сетевые</span></legend>
+                                    				        <legend><span>ПИТАНИЕ:</span></legend>
                                                     <ul class="filter-current">
                                                             <li class="filter-option">
-                                                    								<input class="visually-hidden filter-input filter-input-radio"type="radio" name="pruduct-group" value="battery" id="filter-battery" checked>
-                                                    								<label for="filter-battery">Аккмуляторные</label>
+                                                    								<input class="visually-hidden filter-input filter-input-radio"type="radio" name="pruduct-group" value="battery" id="filter-battery" checked hidden>
+                                                    								<label for="filter-battery">АККУМУЛЯТОРНЫЕ</label>
                                                             </li>
-                                                            <li class="filter-option">
-                                                    								<input class="visually-hidden filter-input filter-input-radio"type="radio" name="pruduct-group" value="electric" id="filter-electric">
-                                                    								<label for="filter-electric">Сетевые</label>
+                                                            <li class="filter-option radio">
+                                                    								<input class="visually-hidden filter-input filter-input-radio"type="radio" name="pruduct-group" value="electric" id="filter-electric" hidden>
+                                                    								<label for="filter-electric">СЕТЕВЫЕ</label>
                                                             </li>
                                                     </ul>
                                     				</fieldset>
-            				                        <button type="submit" class="filter-button button">Показать</button>
+            				                        <button type="submit" class="filter-button button">ПОКАЗАТЬ</button>
             			                  </form>
                             </div>
 
@@ -157,7 +172,7 @@
                                                 <a href="#" class="buy">Купить</a>
                                                 <a href="#" class="bookmark">В закладки</a>
                                             </div>
-                                            <div class="image"><img width="127" height="112" src="img/perforator_bosch_bfg_3000.png"></div>
+                                            <div class="image"><img width="129" height="112" src="img/perforator_bosch_bfg_3000.png"></div>
                                             <div class="title">Перфоратор BOSCH BFG 3000</div>
                                             <div class="discount">22500 Р.</div>
                                             <div class="price">15500 Р.</div>
@@ -257,7 +272,7 @@
                             				<li class="pagination-item pagination-item-current"><a>1</a></li>
                             				<li class="pagination-item"><a href="#">2</a></li>
                             				<li class="pagination-item"><a href="#">3</a></li>
-                            				<li class="pagination-item"><a href="#">Следующая</a></li>
+                            				<li class="pagination-item"><a href="#">СЛЕДУЮШАЯ</a></li>
                       			</ul>
 
                       </div>
@@ -286,7 +301,7 @@
                                 </div>
                                 <div class="footer-block">
                                         <div class="footer-adress">
-                                                <adress>г. Санкт-Петербург, ул. Б. Конюшенная, д.19/8</adress>
+                                                <adress>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</adress>
                                                 <a href="tel:+7 (812) 555-05-55">+7 (812) 555-05-55</a>
                                         </div>
 
@@ -309,9 +324,9 @@
                           </p>
                           <div class="footer-social">
                                   <ul class="social-list">
-                                         <li><a href="#"><img src="img/icon-vk.svg" class="social-button" aria-label="Техномарт на сайте Вконтакте"></a></li>
-                                         <li><a href="#"><img src="img/icon-fb.svg" class="social-button" aria-label="Техномарт на сайте Фейсбук"></a></li>
-                                         <li><a href="#"><img src="img/icon-insta.svg" class="social-button" aria-label="Техномарт на сайте Инстаграм"></a></li>
+                                         <li><a href="https://htmlacademy.ru/"><img src="img/icon-vk.svg" class="social-button" aria-label="Техномарт на сайте Вконтакте"></a></li>
+                                         <li><a href="https://www.facebook.com/htmlacademy"><img src="img/icon-fb.svg" class="social-button" aria-label="Техномарт на сайте Фейсбук"></a></li>
+                                         <li><a href="https://www.instagram.com/htmlacademy/"><img src="img/icon-insta.svg" class="social-button" aria-label="Техномарт на сайте Инстаграм"></a></li>
                                   </ul>
                           </div>
                           <div class="footer-bottom-block">
@@ -327,5 +342,15 @@
                       </div>
                   </div>
           </footer>
+          <div class="goods-basket">
+            <div class="goods-basket-top">
+              <span>Товар добавлен в корзину!</span>
+            </div>
+            <div class="goods-basket-bottom-block">
+              <div class="doods-basket-button">
+                <a href="#"">ОФОРМИТЬ ЗАКАЗ</a>
+                <a href="#">ПРОДОЛЖИТЬ ПОКУПКИ</a>
+            </div>
+          </div>
   	</main>
   </body>
