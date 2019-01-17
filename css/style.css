@@ -12,11 +12,11 @@ body
 }
 
 /*.visually-hidden {
-	position: absolute;
-	clip: rect(0 0 0 0);
-	width: 1px;
-	height: 1px;
-	margin: -1px;
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
 }
 */
 
@@ -699,6 +699,7 @@ a.login-link
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    position: relative;
 
     -webkit-box-pack: justify;
 
@@ -761,11 +762,11 @@ a.login-link
     background-position: 0 0;
 }
 
-.info-blocks-top .flag
+.info-blocks .flag
 {
     position: absolute;
     z-index: 10;
-    left: 610px;
+    left: 240px;
 
     overflow: hidden;
 
@@ -775,7 +776,7 @@ a.login-link
     text-indent: -1000px;
 }
 
-.info-blocks-top .flag-new
+.info-blocks .flag-new
 {
     background: url('../img/new-flag.png') no-repeat 0 0;
 }
@@ -1275,7 +1276,7 @@ h4.for-block-4
 
 .services
 {
-    position: relative;
+    
 
     overflow: hidden;
 
@@ -1318,20 +1319,21 @@ h4.for-block-4
 
     width: 620px;
     margin-top: 65px;
+    position: relative;
 }
 
-.service-list
+.services-list
 {
     position: relative;
 
     width: 235px;
 }
 
-.services-list::before
+.services-list::after
 {
     position: absolute;
-    top: 190px;
-    left: 600px;
+    top: -40px;
+    left:225px;
 
     width: 10px;
     height: 279px;
@@ -1391,7 +1393,7 @@ h4.for-block-4
 {
     z-index: 1;
 
-    margin-left: 81px;
+    margin-left: 84px;
 }
 
 .delivery h2
@@ -1416,12 +1418,12 @@ h4.for-block-4
     padding-top: 25px;
 }
 
-.delivery-car
+img.delivery-car
 {
     position: absolute;
     z-index: 0;
-    right: 372px;
-    bottom: 0;
+    top: 30px;
+    right: -320px;
 }
 
 .partners-list
@@ -3337,7 +3339,7 @@ ul.pagination-list
     top: 80px;
     left: 30%;
 
-    display: none;
+    display:none;
 
     width: 620px;
     min-height: 280px;
@@ -3347,7 +3349,7 @@ ul.pagination-list
     background-color: #fff;
 }
 
-.goods-basket-open {
+.goods-open {
     display: block;
 }
 
@@ -3455,6 +3457,7 @@ ul.pagination-list
 
     content: '';
     cursor: pointer;
+    outline: none;
 
     border: 0;
     background-image: url('../img/icon-close.png');
