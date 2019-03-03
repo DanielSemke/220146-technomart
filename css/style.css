@@ -1355,7 +1355,7 @@ h4.for-block-4
         -ms-flex-align: center;
             align-items: center;
 }
-
+/*
 .services
 {
     
@@ -1369,7 +1369,7 @@ h4.for-block-4
 
     background-color: #f4f8fa;
 }
-
+*/
 .services-top h2
 {
     font-family: 'Cuprum';
@@ -1391,9 +1391,122 @@ h4.for-block-4
     margin: 0;
     padding: 0;
     padding-top: 25px;
+}*/
+.container-services {
+     background-color: #f4f7f9;
+     margin-top: 83px;
 }
-
-.services-bottom
+ .services-list {
+     padding-left: 0;
+}
+ .services h2 {
+     padding-top: 68px;
+     margin-bottom: 30px;
+     font-size: 30px;
+     line-height: 30px;
+     margin: 28px 0;
+     color: #000;
+     text-transform: uppercase;
+}
+ .services p {
+     font-size: 13px;
+     line-height: 24px;
+     font-family: "PT Sans", Arial, sans-serif;
+     width: 400px;
+}
+ .services-information {
+     position: relative;
+     margin: 70px 0 54px 0;
+     padding-bottom: 102px;
+}
+ .services-information::after {
+     position: absolute;
+     content: "";
+     height: 270px;
+     width: 20px;
+     left: 230px;
+     top: -45px;
+     background: url("../img/shadow.png") no-repeat;
+}
+ .services-information input[type="radio"] {
+     display: none;
+}
+ #button-1:checked ~ label[for=button-1], #button-2:checked ~ label[for=button-2], #button-3:checked ~ label[for=button-3] {
+     color: #32425c;
+     background: #ffffff;
+     border-top: 1px solid #ffffff;
+     border-bottom: 1px solid #ffffff;
+}
+ .services-information label {
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     width: 217px;
+     font-size: 21px;
+     line-height: 30px;
+     font-weight: bold;
+     padding: 11px 0 17px 23px;
+     border-bottom: 1px solid #293449;
+     border-top: 1px solid #405069;
+     background-color: #32425c;
+     color: #ffffff;
+     cursor: pointer;
+     text-transform: capitalize;
+}
+ #button-1:checked ~ .slider-2 .slider-content:nth-child(1), #button-2:checked ~ .slider-2 .slider-content:nth-child(2), #button-3:checked ~ .slider-2 .slider-content:nth-child(3) {
+     display: block;
+}
+ .slider-2 h2 {
+     font-size: 36px;
+     line-height: 36px;
+     text-transform: uppercase;
+     font-weight: normal;
+     margin: 0 0 34px 0;
+     color: #32425c;
+}
+ .slider-content {
+     position: absolute;
+     display: none;
+     top: 0;
+     right: 0;
+     width: 620px;
+     padding-bottom: 139px;
+}
+ .slider-content p {
+     width: 275px;
+}
+.slider-content .guarantee {
+     width: 370px;
+}
+ .slider-content:nth-child(1) {
+     background: url("../img/slider-4.png") no-repeat 100% -10%;
+}
+ .slider-content:nth-child(2) {
+     background: url("../img/warranty.png") no-repeat 100% -10%;
+}
+ .slider-content:nth-child(3) {
+     background: url("../img/slider-3.png") no-repeat 100% -10%;
+}
+ .slider-content .button {
+     width: 195px;
+     margin-top: 26px;
+     height: 38px;
+     margin-right: 25px;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-pack: center;
+     -ms-flex-pack: center;
+     justify-content: center;
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     align-items: center;
+     font-size: 14px;
+     border-radius: 3%;
+     text-transform: uppercase;
+     background-color: #ee3643;
+}
+/*.services-bottom
 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1507,6 +1620,10 @@ img.delivery-car
     top: 30px;
     right: -320px;
 }
+*/
+
+
+
 
 .partners-list
 {

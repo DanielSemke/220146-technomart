@@ -3,11 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
-    <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i&amp;subset=cyrillic" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Cuprum:700&amp;subset=cyrillic" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Cuprum:700i&amp;subset=cyrillic" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans:700i&amp;subset=cyrillic" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -253,35 +250,7 @@
             </div>
         </div>
 
-        <div class="services">
-            <div class="wrapper">
-                <div class="services-top">
-                        <h2>СЕРВИСЫ</h2>
-                        <p>
-                            Хороший интернет-магазин отличается от плохого не только ценами! <br>
-                            Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.
-                        </p>
-                </div>
 
-                <div class="services-bottom">
-                    <div class="services-list">
-                            <ul>
-                              <li><a href="#" aria-label="ссылка на страницу Доставка">Доставка</a></li>
-                              <li><a href="#" aria-label="ссылка на страницу Гарантия">Гарантия</a></li>
-                              <li><a href="#" aria-label="ссылка на страницу Кредит">Кредит</a></li>
-                            </ul>
-                    </div>
-                    <div class="delivery">
-                      <h2>ДОСТАВКА</h2>
-                      <p>Мы с удовольствием доставим ваш товар прямо <br>
-                         к вашему подъезду совершенно бесплатно! <br>
-                         Ведь мы не плохо заработаем, <br>
-                          поднимая его на ваш этаж!
-                    </div>
-                      <img class="delivery-car" src="img/delivery-car.png" alt="Грузовик" width="468" height="261">                 
-                </div>
-            </div>
-        </div>
         <div class="wrapper">
             <div class="index-columns">
                 <div class="info">
@@ -299,6 +268,45 @@
                         <a href="#" class="info-button button-red" aria-label="Подробнее о компании Техномарт">ПОДРОБНЕЕ О КОМПАНИИ</a>
                     </article>
                 </div>
+                <section class="services">
+    <div class="services-container">
+      <h2 class="services-title">СЕРВИСЫ</h2>
+      <p class="services-text advert-text">
+        Хороший интернет-магазин отличается от плохого не только ценами!
+        Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.
+      </p>
+      <input class="visually-hidden" type="radio" id="service-1" name="service-toggle" checked>
+      <input class="visually-hidden" type="radio" id="service-2" name="service-toggle">
+      <input class="visually-hidden" type="radio" id="service-3" name="service-toggle">
+      <div class="services-slider-controls">
+        <label for="service-1">Доставка</label>
+        <label for="service-2">Гарантия</label>
+        <label for="service-3">Кредит</label>
+      </div>
+      <ul class="services-slider">
+        <li class="service-item">
+          <h3 class="services-slider-text">ДОСТАВКА</h3>
+          <p class="services-text delivery-text">
+            Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем,<br>поднимая его на ваш этаж!
+          </p>
+        </li>
+        <li class="service-item">
+          <h3 class="services-slider-text">ГАРАНТИЯ</h3>
+          <p class=" services-text warranty-text">
+            Если купленный у&nbsp;нас товар поломается или заискрит,<br>а&nbsp;также в&nbsp;случае пожара, спровоцированного его возгаранием, вы&nbsp;всегда можете быть уверены в&nbsp;нашей гарантии. Мы&nbsp;обменяем сгоревший товар на&nbsp;новый.</p>
+          <p class="services-text warranty-text">Дом уж&nbsp;восстановите как-нибудь сами.</p>
+        </li>
+        <li class="service-item">
+          <h3 class="services-slider-text">КРЕДИТ</h3>
+          <p class="services-text credit-text">
+            Залезть в долговую яму стало проще!
+            Кредитные консультанты придут вам на помощь.
+          </p>
+          <a class="button credit-button" href="credit.html">Оформить заявку</a>
+        </li>
+      </ul>
+    </div>
+  </section>
 
                 <div class="contact">
                     <section>
